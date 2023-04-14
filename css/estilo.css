@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+
+.cabecalho img{
+    width: 30%;
+    max-width: 30%;
+    display: block;
+}
+
+.cabecalho nav{
+    display: flex;
+    justify-content: space-around 60%;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+    font-size: 4em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding: 20% 0;
+}
+
+.cabecalho a:hover{
+    background-color: black;
+    
+}
